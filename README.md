@@ -33,7 +33,7 @@ $ python train_df_agent.py
 ```
 Expected console output: task duration
 ```shell script
-Populated database in 9.261634111404419 seconds
+Populated Dialogflow agent in 9.261634111404419 seconds
 ```
 
 ## Implementation details
