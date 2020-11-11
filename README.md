@@ -9,10 +9,14 @@ $ source env/bin/activate
 ```shell script
 $ sudo pip install -r requirements.txt
 ```
-### 3. Populate credentials.json file in setup directory
+### 3. Populate credentials_BLANK.json file in setup directory and rename file to credentials.json
 Provide values for:
 - Dialogflow Google authentication file path, Google project id
 - mySQL host, database, user, password
+```shell script
+# rename the file so the program uses it
+$ mv credentials_BLANK.json credentials.json 
+```
 
 ## Run
 populate_db.py:
