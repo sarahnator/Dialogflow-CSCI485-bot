@@ -1,4 +1,5 @@
 # CSCI485 Dialogflow bot
+
 ## Setup
 ### 1. Create and activate virtual environment
 ```shell script
@@ -17,8 +18,10 @@ Provide values for:
 # rename the file so the program uses it
 $ mv credentials_BLANK.json credentials.json 
 ```
+### 4. Run SQL scripts in setup/SQL
+Run CreateTables.sql before PopulateQuestionTables.sql
 
-## Run
+## Run Program
 populate_db.py:
 ```
 $ cd scripts
