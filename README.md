@@ -1,5 +1,6 @@
-# Setup
-
+# CSCI485 Dialogflow bot
+---
+## Setup
 ### 1. Create and activate virtual environment
 ```shell script
 $ virtualenv env
@@ -35,7 +36,7 @@ Expected console output: task duration
 Populated database in 9.261634111404419 seconds
 ```
 
-# Implementation details
+## Implementation details
 ### Assumptions:
 - The user is using the ER diagram model in setup directory, and has populated the database in a fashion similar to the SQL scripts provided, with the question and leads_to tables prepopulated.
 - The parameters for what to record in the ER diagram should be labeled as specific as possible, for example, "response" should become "YesOrNo", "count", etc to accurately assign training phrases
