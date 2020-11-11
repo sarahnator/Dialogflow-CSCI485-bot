@@ -1,5 +1,4 @@
 # CSCI485 Dialogflow bot
----
 ## Setup
 ### 1. Create and activate virtual environment
 ```shell script
