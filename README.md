@@ -15,7 +15,7 @@ Provide values for:
 - Dialogflow Google authentication file path, Google project id
 - mySQL host, database, user, password
 
-# Run
+## Run
 populate_db.py:
 ```
 $ cd scripts
